@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* border: 0; */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  /* background: rgb(238, 174, 202); */
+  background: linear-gradient(89deg, #e255c6 0%, #00d1e8 100%);
+}
+
+
+/* Navigation part start */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: underline;
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+
+.nav-link:hover {
+  color: #572f4f;
+}
+
+/* /* Navigation part End */
+
+
+/* Image Link part Start */
+
+.des {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: navy;
+}
+
+
+.img-link {
+  width: 50%;
+  border: 1px solid;
+  padding: 30px 17px;
+  background:
+    radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .15) 30%, rgba(255, 255, 255, .3) 32%, rgba(255, 255, 255, 0) 33%) 0 0,
+    radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .1) 11%, rgba(255, 255, 255, .3) 13%, rgba(255, 255, 255, 0) 14%) 0 0,
+    radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .2) 17%, rgba(255, 255, 255, .43) 19%, rgba(255, 255, 255, 0) 20%) 0 110px,
+    radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .2) 11%, rgba(255, 255, 255, .4) 13%, rgba(255, 255, 255, 0) 14%) -130px -170px,
+    radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .2) 11%, rgba(255, 255, 255, .4) 13%, rgba(255, 255, 255, 0) 14%) 130px 370px,
+    radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .1) 11%, rgba(255, 255, 255, .2) 13%, rgba(255, 255, 255, 0) 14%) 0 0,
+    linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
+  background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
+  background-color: #840b2a;
+  border-radius: 7px;
+}
+
+.button {
+  background-color: rgb(174, 43, 174);
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(230, 128, 65);
+  color: white;
+}
+
+/* Image Link part End */
+
+/* Rank part start */
+
+.rank
+{
+  font-size: larger;
+  font-weight: bold;
+}
+
+.card
+{
+  background: linear-gradient(89deg, #9b1981 0%, #44d1e1 100%);
+  color: white;
+  font-weight: bolder;
+}
+
+.card > h1{
+  font-weight: bolder;
+}
+
+.card > button
+{
+  color: beige;
+}
+
+@media (max-width: 576px) {
+
+  .img-link {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .img-link {
+    width: 80%;
+  }
+
+}
